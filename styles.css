@@ -1,0 +1,55 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile {
+  width: 250px;
+  height: 60px;
+  background-color: #212744;
+  border-radius: 4px;
+}
+
+.list-info-frame {
+  display: none;
+  position: absolute;
+  left: 110px;
+  width: 140px;
+  height: 140px;
+  background-color: #212744;
+  border: 1px solid #C2C6DC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.dropdown:hover .list-info-frame {
+  display: block;
+}
+
+.avatar {
+  position: absolute;
+  top: 10.5px;
+  left: 200px;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://pmcvariety.files.wordpress.com/2019/11/chris-evans-feat-image.jpg?w=600");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
+
+.list-info-frame ul {
+  margin-left: -30px;
+  color: #C2C6DC;
+}
+
+.list-info-frame li {
+  padding: 1px;
+}
+
+li:hover {
+  background: #7367F0;
+  border-radius: 4px;
+  width: 100px;
+  height: 28px;
+} 
